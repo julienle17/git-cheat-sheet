@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <head>
+       <title>Cheat sheet Git</title> 
+       <meta charset="utf-8">
+     </head>
+     <body>
+	    <!--header & nav beginning-->
+       <header> 
+	   <H1>Cheat sheet Git</H1>
+	    <img src="img/git-logo.png" alt="Logo Git" width="512" height="214"/> 
+	     <nav><br />
+		   <a href="#configure">Configure Git</a>  |  
+		   <a href="#create">Create repository</a>  |
+		   <a href="#make">Make changes</a>  |
+		   <a href="#group">Group Changes</a>  |
+		   <a href="#review">Review History</a>  |
+		   <a href="contact.html">Contact</a>  |
+	     </nav>
+       </header>
+      	    <!--header & nav end--> 
+       <section>
+	<article>
+	  <h2 id="configure">Configure Git</h2>
+	   <ul>
+	      <li><code>git config --global user.name "[name]"</code></li>
+	      <li><code>git config --global user.email "[email]"</code></li>
+	   </ul>
+	</article>
+	<article>
+	  <h2 id="create">Create repository</h2>
+	   <ul>
+	      <li><code>git init</code> - Create a new local repository</li>
+	      <li><code>git clone [URL]</code> - Clone an existing repository</li>
+	   </ul>
+	</article>
+	<article>
+ 	  <h2 id="make">Make changes</h2>
+	   <ul>
+	      <li><code>git add [files/.]</code> - Add files/all current change to the next commit</li>
+	      <li><code>git status</code> - List all new or modified files</li>
+	      <li><code>git commit -m [descriptive message]</code> - Records file permanently in version history</li>
+	   </ul>
+	</article>
+	<article>
+       	  <h2 id="group">Group Changes</h2>
+	   <ul>
+	      <li><code>git branch</code> - List all branch in the current local repository</li>
+	      <li><code>git branch [branch name]</code> - Create a new branch</li>
+	      <li><code>git checkout [branch name]</code> - Switches to the branch and updates the working directory</li>
+	      <li><code>git merge [branch]</code> - Combines the branch history into the current branch</li>
+	      <li><code>git branch -d [branch name]</code> - Deletes the specified branch</li>
+	   </ul>
+	</article>
+	<article>
+	   <h2 id="review">Review History</h2>
+	    <ul>
+	       <li><code>git log</code> - Lists version history for the current branch</li>
+	       <li><code>git show</code> -  </li>
+	    </ul>
+	</article>
+       </section> 
+       <footer>
+	  <a href="contact.html">Contact me</a>
+	     <h4>Follow me on :</h4>
+	      <a href="http://twitter.com" title="Twitter">
+		      <img src="img/logo-twitter.png" alt="Twitter logo" height="50" width="50"></a>
+	      <a href="http://github.com" title="Github">
+	      	      <img src="img/logo-github.png" alt="Github logo" height="50" width="50"></a>
+       </footer>
+     </body>
+</html>
